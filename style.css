@@ -96,7 +96,7 @@ button {
 
 @media (max-width: 600px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 
   .card {
@@ -112,8 +112,4 @@ button {
   .dice {
     padding: 1em;
   }
-
-  /* p {
-        margin: 1em;
-    } */
 }

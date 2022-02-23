@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes and Monsters</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="card">
+          <h4>Doctors</h4>
+          <p id="h-message"></p>
+          <img
+            src="img/images (9)_1.jpeg"
+            alt=""
+            class="card-img highlight"
+            id="doctor"
+          />
+          <p>Lifeline: <strong id="playerOne-life">60</strong></p>
+          <div class="dice">
+            <h2 class="num highlight" id="diceRoll-one">0</h2>
+          </div>
+        </div>
+        <div class="card">
+          <h4>Covid</h4>
+          <p id="m-message"></p>
+          <img
+            src="img/photo-1583324113626-70df0f4deaab.jpeg"
+            alt=""
+            class="card-img"
+            id="covid"
+          />
+          <p>Lifeline: <strong id="playerTwo-life">60</strong></p>
+          <div class="dice"><h2 id="diceRoll-two" class="num">0</h2></div>
+        </div>
+      </div>
+      <div class="btn-wrap">
+        <button id="roll">Attack</button>
+        <button id="resetbtn">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
